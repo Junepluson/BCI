@@ -268,7 +268,7 @@ class predictEmotion(object):
         Output: Class of emotion between 1 to 5 according to Russel's Circumplex Model.
         """
         # Load MATLAB .mat file
-        fname = "../../DEAP/s03.mat"
+        fname = "../../DEAP/s01.mat"
         mat_data = sio.loadmat(fname)
 
         # Extract EEG data and labels
